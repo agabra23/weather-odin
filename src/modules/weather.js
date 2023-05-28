@@ -15,7 +15,7 @@ const weather = (() => {
   }
 
   async function fetchWeatherData(location) {
-    const endpoint = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`;
+    const endpoint = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`;
 
     try {
       const response = await fetch(endpoint, { mode: "cors" });
