@@ -1,5 +1,6 @@
 import weather from "./modules/weather";
 import display from "./modules/display";
+import "./styles/style.css";
 
 const searchInput = document.getElementById("searchInput");
 const searchSubmitBtn = document.getElementById("searchSubmitBtn");
