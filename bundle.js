@@ -1,0 +1,1 @@
+console.log(async function(e){return await fetch("http://api.weatherapi.com/v1/current.json?key=138e3170bacc42e892d180423231305&q=London",{mode:"cors"})}());
