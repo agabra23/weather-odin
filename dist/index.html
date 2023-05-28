@@ -14,8 +14,18 @@
         <h1 class="site-title">Weather App</h1>
       </header>
       <main class="main-content">
-        <input type="search" placeholder="Enter City Name or Zip Code" />
-        <button class="search-submit-btn">Search</button>
+        <div class="search-container">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Enter City or Zip"
+          />
+          <button class="search-submit-btn" id="searchSubmitBtn">Search</button>
+        </div>
+        <div class="result-container">
+          <div class="icon"></div>
+          <div class="weather-info"></div>
+        </div>
       </main>
     </div>
   </body>

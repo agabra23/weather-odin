@@ -26,4 +26,25 @@ header {
   padding: 2rem;
   font-size: 2rem;
   color: var(--primary-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+input[type="search"] {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.search-submit-btn {
+  padding: 1rem;
+  width: 8rem;
 }
