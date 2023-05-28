@@ -2,6 +2,8 @@ const display = (() => {
   const container = document.getElementById("weatherInfoContainer");
 
   function displayWeatherData(data) {
+    if (!data) return;
+
     container.innerHTML = "";
 
     const location = document.createElement("h6");
