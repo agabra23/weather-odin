@@ -33,9 +33,11 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  gap: 4rem;
 }
 
 input[type="search"] {
@@ -47,4 +49,12 @@ input[type="search"] {
 .search-submit-btn {
   padding: 1rem;
   width: 8rem;
+}
+
+.weather-info {
+  font-size: 3rem;
+  text-align: center;
+
+  padding: 2rem;
+  border-radius: 1rem;
 }
